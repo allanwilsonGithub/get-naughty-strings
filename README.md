@@ -27,3 +27,9 @@ Change Log
 ##########
 
 See `CHANGELOG.md` for details.
+
+Building the pip installable package
+####################################
+
+    >>> python3 -m pip install --upgrade build
+    >>> python3 -m build

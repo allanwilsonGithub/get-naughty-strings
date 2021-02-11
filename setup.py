@@ -8,9 +8,12 @@ setuptools.setup(
     author_email="allan.wilson@vaisala.com",
     description="Get naughty strings",
     long_description=open('README.md').read(),
-    long_description_content_type="text/x-rst",
+    long_description_content_type="text/markdown",
     url="https://TODO/",
     packages=setuptools.find_packages(),
+    install_requires=[
+        'requests',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
